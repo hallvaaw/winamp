@@ -1,5 +1,5 @@
 <template>
-    <main class="bg-slate-800 pt-4 mb-80">
+    <main class="relative bg-slate-800 pt-4 mb-80 max-h-screen">
         <header class="container flex flex-row mx-auto text-center justify-center px-64">
             <div class="flex flex-col my-4">
                 <div class="bg-amber-200 border-2 border-b-[1px] rounded-t-xl rounded-b border-gray-900 px-40 h-2"></div>
@@ -38,7 +38,7 @@
             </div>
         </div>
                 <div class="flex flex-row justify-left bg-slate-700 mb-6">
-                    <p class="text-xl text-gray-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="text-xl text-gray-100 p-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div class="flex flex-row">
                         <div class="items-center mx-2">
                             <div class="bg-amber-300 h-16 w-3 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2.5"></div>
@@ -59,14 +59,17 @@
                 <div class="bg-amber-300 border-2 border-t-[1px] rounded-b-xl rounded-t border-gray-900 px-[198px] h-1.5"></div>
             </div>
         </div>
-            <section id="bottom" class="flex flex-col bg-slate-800 min-h-screen">
+            <section id="bottom" class="flex flex-col bg-slate-800">
                 <div class="bg-gray-900 border-2 border-gray-600 border-t-gray-900 border-l-gray-900 mb-6">
                     <p class="text-amber-100 tracking-widest font-['Verdana']"><a href="#">1. HOME</a></p>
                     <p class="text-green-500 tracking-widest font-['Verdana']"><a href="#">2. ABOUT</a></p>
                     <p class="text-green-500 tracking-widest font-['Verdana']"><a href="#">3. CV</a></p>
                     <p class="text-green-500 tracking-widest font-['Verdana']"><a href="#">4. OTHER</a></p>
+                    <v-icon name="fa-gamepad" />
                 </div>
             </section>
+        </div>
+        <div>
         </div>
     </main>
 </template>
@@ -74,10 +77,13 @@
 <script>
 import AboutPage from './components/AboutPage.vue'
 import CVPage from './components/CVPage.vue'
+import { OhVueIcon } from "oh-vue-icons"
+import { FaFlag } from "oh-vue-icons/icons"
 
 export default {
     name: 'App',
     components: {
+        "v-icon": FaFlag,
         AboutPage,
         CVPage
     }
