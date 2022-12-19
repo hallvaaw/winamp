@@ -38,39 +38,74 @@
             </div>
         </div>
                 <div class="flex flex-row justify-left bg-slate-700 mb-6">
-                    <p class="text-2xl text-gray-100 p-4 xl:p-8 pt-20 xl:pt-20">I make stuff with:</p>
-                    <div class="flex flex-row pt-6 xl:pl-20 xl:space-x-16">
-                        <div class="items-top mx-2">
-                            <div class="bg-gray-100 h-1 w-2"></div>
-                            <div class="bg-slate-700 h-1 w-2"></div>
-                            <div class="bg-gray-100 h-1 w-2"></div>
-                            <div class="bg-slate-700 h-1 w-2"></div>
-                            <div class="bg-gray-100 h-1 w-2"></div>
+                    <p class="text-2xl text-gray-100 p-4 xl:pl-16 pt-20 xl:pt-20 xl:text-3xl">I make stuff with:</p>
+                    <div class="flex flex-row pt-6 xl:pl-20">
+                        <div class="mx-1">
+                            <div class="bg-gray-200 h-0.5 w-3 rounded mt-1"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
                         </div>
-                        <div class="items-center mx-2">
+                        <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
                             <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/logo-vue-svgrepo-com.svg" alt="Vue" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
-                        <div class="items-center mx-2">
+                        <div class="mx-1">
+                            <div class="bg-gray-200 h-0.5 w-3 rounded mt-1"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                        </div>
+                        <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
                             <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/tailwind-svgrepo-com.svg" alt="Tailwind" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
-                        <div class="items-center mx-2">
+                        <div class="mx-1">
+                            <div class="bg-gray-200 h-0.5 w-3 rounded mt-1"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                        </div>
+                        <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
                             <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/js-svgrepo-com.svg" alt="JavaScript" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
-                        <div class="items-center mx-2">
+                        <div class="mx-1">
+                            <div class="bg-gray-200 h-0.5 w-3 rounded mt-1"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                        </div>
+                        <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
                             <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/python-svgrepo-com.svg" alt="Python" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
-                        <div class="items-center mx-2">
+                        <div class="mx-1">
+                            <div class="bg-gray-200 h-0.5 w-3 rounded mt-1"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                        </div>
+                        <div class="mx-1 xl:mr-2">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
                             <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/r-svgrepo-com.svg" alt="R" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
+                        </div>
+                        <div class="mx-1">
+                            <div class="bg-gray-200 h-0.5 w-3 rounded mt-1"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
+                            <div class="bg-slate-700 h-[75px] w-3"></div>
+                            <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
                         </div>
                     </div>
                 </div>
