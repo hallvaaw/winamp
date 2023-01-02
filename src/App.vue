@@ -15,7 +15,7 @@
             <section id="top" class="flex flex-col bg-slate-700">
                 <div class="flex flex-row bg-slate-700 justify-between">
                     <div class="w-88 text-center pt-6">
-                        <h2 class="text-blue-800 font-bold tracking-wider font-['Verdana'] justify-left text-left pl-6 text-xl xl:text-4xl">I am a bioinformatician and developer.</h2>
+                        <h2 class="text-slate-300 font-bold tracking-wider font-['Verdana'] justify-left text-left pl-6 text-xl xl:text-4xl">I am a bioinformatician and developer.</h2>
                     </div>
                     <div class="items-center justify-right">
                         <div class="bg-gray-900 border-2 border-gray-600 border-t-gray-900 border-l-gray-900 text-green-500 tracking-widest font-['Verdana'] text-lg xl:text-xl py-2 pl-1"><marquee>WELCOME TO MY HOMEPAGE</marquee></div>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
-                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/logo-vue-svgrepo-com.svg" alt="Vue" width="30"></div>
+                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/logo-vue-svgrepo-com.svg" alt="Vue" title="Vue" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
                         <div class="mx-1">
@@ -61,7 +61,7 @@
                         </div>
                         <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
-                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/tailwind-svgrepo-com.svg" alt="Tailwind" width="30"></div>
+                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/tailwind-svgrepo-com.svg" alt="Tailwind" title="Tailwind" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
                         <div class="mx-1">
@@ -73,7 +73,7 @@
                         </div>
                         <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
-                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/js-svgrepo-com.svg" alt="JavaScript" width="30"></div>
+                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/js-svgrepo-com.svg" alt="JavaScript" title="JavaScript" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
                         <div class="mx-1">
@@ -85,7 +85,7 @@
                         </div>
                         <div class="mx-1 xl:mr-8">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
-                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/python-svgrepo-com.svg" alt="Python" width="30"></div>
+                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/python-svgrepo-com.svg" alt="Python" title="Python" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
                         <div class="mx-1">
@@ -97,7 +97,7 @@
                         </div>
                         <div class="mx-1 xl:mr-2">
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-t-xl border-gray-800 border-b-0 ml-2"></div>
-                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/r-svgrepo-com.svg" alt="R" width="30"></div>
+                            <div class="bg-gray-400 h-9 w-9 border-2 rounded border-gray-800 border-l-gray-200"><img src="./assets/r-svgrepo-com.svg" alt="R" title="R" width="30"></div>
                             <div class="bg-amber-300 h-16 w-4 border-2 rounded-b-xl border-gray-800 border-t-0 ml-2"></div>
                         </div>
                         <div class="mx-1">
@@ -107,6 +107,19 @@
                             <div class="bg-slate-700 h-[75px] w-3"></div>
                             <div class="bg-gray-200 h-0.5 w-3 rounded"></div>
                         </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 pt-6">
+                    <p class="text-2xl text-gray-100 pl-16 p-2">My setup:</p>
+                    <div class="grid grid-cols-2 col-span-2 bg-gray-900 border-2 border-gray-600 border-t-gray-900 border-l-gray-900 mb-6 pb-2">
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">HARDWARE:</p>
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">LENOVO IDEAPAD</p>
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">OS:</p>
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">UBUNTU</p>
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">TEXT EDITOR:</p>
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">VIM</p>
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">BROWSER:</p>
+                        <p class="text-md text-green-500 tracking-widest font-['Verdana']">FIREFOX</p>
                     </div>
                 </div>
             </section>
