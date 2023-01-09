@@ -62,7 +62,7 @@
 
 <script>
 import AboutPage from './components/AboutPage.vue'
-import CVPage from './components/CVPage.vue'
+import CVPage from './components/PortfolioPage.vue'
 
 export default {
     name: 'App',
